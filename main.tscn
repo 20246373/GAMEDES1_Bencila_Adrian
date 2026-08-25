@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://b45e318j7iie"]
+
+[node name="Main" type="Node2D" unique_id=228349308]
+
+[node name="Player" type="Sprite2D" parent="." unique_id=1406733104]
+
+[node name="Camera" type="Camera2D" parent="Player" unique_id=553601431]
+position = Vector2(0, -2)
+
+[node name="ScoreLabel" type="Label" parent="." unique_id=375662914]
+offset_left = -51.0
+offset_top = -37.0
+offset_right = 52.0
+offset_bottom = -14.0

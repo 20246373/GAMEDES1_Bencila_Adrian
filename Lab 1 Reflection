@@ -1,0 +1,5 @@
+REFLECTION
+a. Least Familiar Editor PanelThe Inspector panel was definitely the most confusing at first because it just looked like a massive wall of numbers and dropdown menus. I figured out how it worked by clicking on different objects in the viewport and changing their values to see exactly how it altered them in real-time.
+b. Git Setup Issue & ResolutionWe kept getting a frustrating merge conflict error because GitHub had a README file online that our local computer didn't know about. We fixed it by wiping our local Git settings, pulling the online file down first using special override commands, and then pushing everything back up cleanly.
+c. Relationship Between a Node, a Scene, and the Scene TreeA node is a single building block that does one specific job, while a scene is just a group of those nodes saved together to make a bigger asset like a player or a level. The scene tree acts as the grand hierarchy that holds all these active scenes together and controls how they run while the game is playing.
+

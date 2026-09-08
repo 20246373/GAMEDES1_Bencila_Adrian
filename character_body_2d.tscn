@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://kju2miflsvjt"]
+
+[ext_resource type="Script" uid="uid://bdgkjv4et53x0" path="res://character_body_2d.gd" id="1_f50pn"]
+[ext_resource type="Texture2D" uid="uid://dffxcndm5ytyn" path="res://sweet_uniforms.jpg" id="3_44cfe"]
+
+[node name="CharacterBody2D" type="CharacterBody2D" unique_id=1335071624]
+script = ExtResource("1_f50pn")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=2070765302]
+position = Vector2(549, 349)
+scale = Vector2(0.2725926, 0.21983877)
+texture = ExtResource("3_44cfe")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=642537292]
